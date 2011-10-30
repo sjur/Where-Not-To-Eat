@@ -30,7 +30,7 @@ include ("ziparrays.php");
   <!-- <a href="http://infographics.sjurs.com/nyc/restaurants/index4.php">&nbsp;reset all</a>-->
   <a href="index4.php" id="reset_all">&nbsp;reset all</a>
   <br/><img id="header_image" src="danger_knife_fork.png" />
-  <a href="http://infographics.sjurs.com/nyc/restaurants/index2.php" id="header">where not to eat</a>
+  <a href="http://infographics.sjurs.com/nyc/restaurants/index4.php" id="header">where not to eat</a>
 
   <!-- <div id="nav"><a href="http://infographics.sjurs.com/nyc/restaurants/index2.php">help</a></div> -->
   <div id="tagline">Manhattan restaurants <br/>that have been <br/>temporarily <span class="red">closed</span> due <br/>to health violations in the <br/>previous 12 months</div>
