@@ -2,7 +2,7 @@
 
 /*
 
-	A place where people eat
+	A restaurant that is open now, but has at one point in time been closed by the NYC Department of Health
 	
 	
 	
