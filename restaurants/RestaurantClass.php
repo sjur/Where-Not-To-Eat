@@ -1,5 +1,14 @@
 <?php
 
+/*
+
+	A place where people eat
+	
+	
+	
+	@Entity
+*/
+
 Class Restaurant
 {
 	private $camis;
@@ -25,6 +34,7 @@ Class Restaurant
 		$this->lat = $lat;
 		$this->lng = $lng;
 		$this->zip = $zip;
+		
 		
 		$this->addClosedDate($closedDate);
 		$this->yelpScore = $yelpScore;
