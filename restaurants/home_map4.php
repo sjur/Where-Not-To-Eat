@@ -1,4 +1,13 @@
+<?php
 
+/*
+		Manhattan restaurants that have been temporarily closed due to health violations in the previous 12 months
+		
+		
+		@Feature
+*/
+
+?>
 
 <script type="text/javascript"
     src="http://maps.google.com/maps/api/js?sensor=false">
