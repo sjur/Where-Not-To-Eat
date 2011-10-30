@@ -1,0 +1,454 @@
+html { height: 100%;
+font-family:Helvetica, Arial, sans-serif;
+padding:0px;
+margin:0;
+	font-size:62.5%;
+
+}
+body { 
+	margin:50px, 0px;
+	padding:0px;
+	padding-top:2em;
+	text-align:center;
+
+	
+	
+	}
+img {
+	border:none;
+}
+
+#reset_all {
+	
+	font-size:0.9em;
+	letter-spacing:0.2em;
+}
+
+#wrapper {
+	width:1280px;
+	height:700px; 
+	margin:0px auto;
+	text-align:left;
+	border-left:1px solid  #DDD;
+	border-right:1px solid #DDD;
+	
+	
+	
+	
+}
+
+#left_column {
+	position:relative;
+	display:inline;
+	float:left;
+	width:40%;
+	height:100%;
+	padding-left:2.4em;
+	color:#555;
+
+
+
+}
+a:link {color:#F00;}      /* unvisited link */
+a:visited {color:#F00;}  /* visited link */
+a:hover {color:#F00;}  /* mouse over link */
+a:active {color:#F00;}
+
+#header {
+	position:absolute;
+	top:60px;
+	left:430px;
+	width:160px;
+	font-size:3.6em;
+	padding:20px 20px 20px 60px;
+	background:white;
+	opacity:0.6;
+	display:inline;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	font-weight:lighter;
+	text-align:right;
+	color:black;
+	margin-top:0px;
+	z-index:400;
+	border:1px solid black;
+
+}
+
+#header_image {
+	
+	position:absolute;
+	top:178px;
+	left:430px;	
+	width:80px;
+	height:80px;
+	padding-right:20px;
+	z-index:500;
+	opacity:0.6;
+	
+	
+	
+}
+h2 {
+	font-size:1.4em;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	font-weight:lighter;
+	color:#555;
+	margin-top:0px;
+}
+
+a {
+	text-decoration:none;
+}
+
+
+#nav {
+	padding-left:2em;
+	float:right;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	font-size:1.4em;
+	margin-top:0.1em;
+	margin-right:0.1em;
+}
+#nav a{
+	color:#B00;
+	padding-left:2em;
+	
+}
+
+#tagline {
+	position:absolute;
+	top:80px;
+	font-size:2.0em;
+	letter-spacing:0.1em;
+	line-height:1.6em;
+	width:60%;
+	
+	
+}
+
+#label_latest {
+	color:#aaa;
+	font-size:2em;
+	padding:1em;
+	position:absolute;
+	top:280px;
+	left:190px;
+	width:100px;
+	letter-spacing:0.1em;
+	text-align:right;
+	
+}
+#latest {
+	position:absolute;
+	top:260px;
+	left:0px;
+	text-align:right;
+	margin-left:3.6em;
+	color:#F00;
+	margin-top:1.6em;
+	font-size:2em;
+	letter-spacing:0.2em;
+	line-height:3em;
+	width:85%;
+	
+	
+	
+}
+#search {
+	position:absolute;
+	top: 4px;
+	left: 122px;
+
+	margin-left:0.2em;
+	padding:0px;
+	/*margin-top:10em;*/
+
+	
+	
+	
+}
+#search_field {
+	color:#444;
+	font-size:1em;
+	letter-spacing:0.1em;
+	width:24.8em;
+
+	
+	
+	
+	
+}
+#cuisine_filter {
+		color:#444;
+	position:absolute;
+	top: 28px;
+	left: 122px;
+	/*margin-top:2em;*/
+	padding:0px;
+	margin-left:0.3em;
+	letter-spacing:0.1em;	
+	
+	
+}
+
+#powered_by {
+
+	position:absolute;
+	bottom:4px;
+	left:22px;
+	
+	
+}
+
+#cuisine {
+		color:#444;
+	margin-left:1em;
+	background-color:#FFF;
+	border-color:#FFF;
+
+	/*font-size:0.5em;*/
+	letter-spacing:0.1em;
+	width:12em;
+	
+	
+	
+}
+#legal {
+	position:absolute;
+	bottom:0px;
+	font-size:0.8em;
+	line-height:1.6em;
+	color:#444;
+	letter-spacing:0.1em;
+	/*font-size:0.6em;
+	letter-spacing:0.1em;
+	line-height:1.6em;
+	width:20em;*/
+	
+	
+}
+#label_mini_map {
+	color:#aaa;
+	font-size:1.2em;
+	padding:1em;
+	position:absolute;
+	bottom:140px;
+	right:100px;
+	width:100px;
+	letter-spacing:0.1em;
+	 
+	z-index:300;
+	
+}
+#mini_map {
+	position:absolute;
+	bottom:0px;
+	right:40px;
+	width:120px;
+	height:auto;
+	
+
+	
+
+}
+#mini_map_zoom_out
+{
+	padding-top:1em;
+	font-size:0.75em;
+	cursor:pointer;
+	color:red;	
+	
+}
+#mini_map_reset_all
+{
+	padding-top:1em;
+	font-size:0.75em;
+	cursor:pointer;
+	color:red;	
+	
+}
+
+#mini_map img {
+	width:100%;
+	opacity:0.8;
+	z-index:400;
+}
+
+#map_canvas_wrapper {
+	/*border-left:1px solid red;*/
+	padding-left:10px;
+	float:left;
+	display:inline;
+	position:relative;
+	height:100%;	
+	width:40%;
+	z-index:350;
+	
+	
+}
+#map_canvas { 
+
+	position:relative;
+	width:100%; 
+	height: 100%;
+	z-index:400;
+
+	
+}
+
+#right_column {
+position:relative;
+margin-left:2em;
+width:14%;
+height:100%;
+float:left;
+font-size:0.9em;
+	letter-spacing:0.2em;
+	color:#555;
+	line-height:1.45em;
+	text-align:justify;
+
+	
+	
+}
+#abdout {
+	position:absolute;
+	background:white;
+	padding:1em;
+	float:right;
+	top:-1px;
+	left:450px;
+	font-size:1.2em;
+	letter-spacing:0.1em;
+	color:#555;
+	line-height:1.6em;
+	width:auto;
+	height:100%;
+	z-index:30;
+	
+	
+}
+#all_region_info {
+position:relative;
+float:left;
+color:black;
+height:90%;
+width:100%;
+border-top:1px solid #555;
+	
+	
+}
+.region_info {
+
+
+border-bottom:1px solid #555;
+height:11%;
+	
+	
+}
+
+.region_image {
+	padding:5px;
+	height:60px;	
+	
+	
+}
+
+.yelp_image {
+	
+	padding-left:0.6em;
+	padding-bottom:0.3em;	
+	
+	
+}
+
+#home_map_info {
+	z-index:200;
+	position:absolute;
+	top:100px;
+	left:40px;
+	width:160px;
+	font-size:1.2em;
+	letter-spacing:0.1em;
+	line-height:1.6em;
+	height:auto;;
+	background:white;
+	color:#555;
+	padding:1em;
+}
+#home_map_info_shadow {
+	z-index:100;
+	position:absolute;
+	top:104px;
+	left:44px;
+	width:160px;
+	font-size:1.2em;
+	letter-spacing:0.1em;
+	line-height:1.6em;
+	height:auto;;
+	background:#555;
+	color:#555;
+	padding:1em;
+	
+}
+
+.closed_dates {
+	display:inline;
+	width:auto;
+	height:auto;
+	float:right;
+	text-align:right;
+	padding-right:6em;
+	
+	
+}
+
+.restaurant_infowindow {
+	
+	line-height:1.2sem;
+	z-index:1600;
+	
+}
+
+/*#right_column {
+	border-right:1px solid green;
+	display:inline;
+	float:left;
+	width:30%;
+	height:100%;
+	padding-left:12px;
+	color:#600;
+
+}*/
+
+.black {
+	
+	color:black;	
+	
+}
+
+
+
+.number {
+	font-size:3em;
+}
+
+.red {
+	color:#F00;
+}
+.blue {
+	color:#00A;
+}
+.bold {
+	font-weight:bold;
+	letter-spacing:0.05em;
+}
+.right {
+	text-align:right;
+}
+
+
+

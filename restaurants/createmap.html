@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0px; padding: 0px }
+  #map_canvas { height: 100% }
+</style>
+
+
+
+<script type="text/javascript"
+    src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript">
+  function initialize() {
+	
+    var latlng = new google.maps.LatLng(40.79,-73.975);
+    var myOptions = {
+      zoom: 12,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    
+	var map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+	
+
+	
+	var geocoder = new google.maps.Geocoder();
+	
+	var address = "130 SAINT MARKS PLACE, 10009, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "372 3 AVENUE, 10016, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "207 MADISON ST, 10002, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "33 EAST 17 STREET, 10003, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "PIER 59 CHELSEA PIERS, 10011, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "402 WEST 34 STREET, 10001, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	
+			
+	
+	
+	
+	var address = "2146 2 AVENUE, 10029, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "1016 LEXINGTON AVENUE, 10021, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "87 BAXTER ST, 10013, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "1448 1 AVENUE, 10021, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "254 10 AVENUE, 10001, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "551 AMSTERDAM AVE, 10024, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "230 E 63RD ST, 10065, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "97 MACDOUGAL ST, 10012, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "6 STUYVESANT STREET, 10003, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "343 E 10TH ST, 10009, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "176 1 AVENUE, 10009, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "369 1 AVENUE, 10010, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "475 LEXINGTON AVE, 10017, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "1710 2 AVENUE, 10128, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "61 MOTT ST, 10013, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "113 RIVINGTON STREET, 10002, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "1343 AMSTERDAM AVENUE, 10027, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "149 WEST 14 STREET, 10011, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "321 WEST 125 STREET, 10027, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "148 WEST 49 STREET, 10019, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "357 GRAND ST FL 1ST, 10002, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "89 SOUTH STREET, 10038, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "138 W 72ND ST, 10023, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "2210 BROADWAY, 10024, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "701 9 AVENUE, 10019, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "70 EAST BROADWAY, 10002, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "119 LEXINGTON AVENUE, 10016, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "242 EAST 40 STREET, 10016, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "1 HUDSON STREET, 10013, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "3892 BROADWAY, 10032, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "2092 AMSTERDAM AVE, 10032, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "27 PARK PLACE, 10007, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "1 WEST 47 STREET, 10036, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "834 7 AVENUE, 10019, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "311 WEST 51 STREET, 10019, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "225 EAST 60 STREET, 10022, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+	
+	
+	
+	var address = "908 7 AVENUE, 10019, NY";
+	    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+            position: results[0].geometry.location,
+			map: map,
+			icon: "marker.png"
+            
+        });
+      } 
+ 
+    });
+			
+  }
+
+
+
+</script>
+</head>
+<body onLoad="initialize()">
+  <div id="map_canvas" style="width:100%; height:100%"></div>
+  
+  <script type="text/javascript">
+  	place();
+  </script>
+
+</body>
+</html>
